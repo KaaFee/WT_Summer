@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 3px;
+    background: rgb(182, 206, 207);
+  }
+  div.frame {
+    border-bottom: double;
+    padding: 10px;
+  }
+  
+  .header {
+    color: black;
+    padding: 30px;
+    text-align: left;
+    background: skyblue;
+  }
+  .button {
+    color: black;
+    background: blue;
+    cursor: pointer;
+    margin-right: 3px;
+  }
+  
+  .submit {
+    border-radius: 4px;
+    background-color: rgb(32, 101, 204);
+    text-align: center;
+    width:100px
+  }
+  .submit:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #f2f2f2;
+    color:#8461d4;
+  }
+  .reset {
+    border-radius: 4px;
+    background-color: rgb(32, 101, 204);
+    text-align: center;
+    width:100px
+    
+  }
+  .reset:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #f2f2f2;
+    color:#8461d4;
+  }
+  .header h1 {
+    font-size: 30px;
+  }
+  .header h2 {
+    color: rgb(0, 60, 128);
+  }
+  
+  div.sticky {
+    position: sticky;
+    top: 0;
+    padding: 0;
+    border: 2px solid #8461d4;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(30, 8, 51);
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav p {
+    float: right;
+    display: block;
+    color: blue;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(221, 221, 221);
+    color: black;
+  }
+  div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73ad21;
+  }
+  
+  td {
+    background-color: rgb(255, 252, 102);
+  }
+  
+  div.middlecolumn {
+    position: relative;
+    left: 25%;
+    float: center;
+    width: 50%;
+  }
+  
+  .registrationBox {
+    background-color: rgb(157, 244, 247);
+    border-left: 15px solid rgb(51, 149, 161);
+    padding: 1px;
+    font-size: 10px;
+  }
+  
